@@ -1,0 +1,32 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #333;
+  padding: 20px 0; /* Ensure padding for footer */
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+  height: 60px; /* Set a fixed height for the footer */
+}
+
+.social-media {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #ddd;
+}
+
+.footer p {
+  margin: 0;
+}
